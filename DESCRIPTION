@@ -1,0 +1,34 @@
+Package: OSE
+Title: Orthogonal Series Density Estimation
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Nikolaus",
+           family = "Schäfer",
+           role = c("aut", "cre"),
+           email = "nikolaus.schaefer@stud.uni-heidelberg.de")
+    person(given = "Julian",
+           family = "Matthes",
+           role = c("aut", "cre"),
+           email = "tf454@stud.uni-heidelberg.de")
+    person(given = "Arne",
+           family = "Kuhrs",
+           role = c("aut", "cre"),
+           email = "arne.kuhrs@t-online.de")
+Description: The package provides functions to estimate densities for given distributions as well as 
+License: What license it uses
+Imports: 
+  R6 (>= 2.3.0), 
+  ggplot2 (>= 3.1.0),
+  graphics (>= 3.5.2), 
+  stats (>= 3.5.2),
+  plotly (>= 4.8.0),
+  magrittr(>= 1.5)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown, 
+    testthat,
+    devtools
+VignetteBuilder: knitr
